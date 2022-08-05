@@ -1,0 +1,30 @@
+header{
+background-color: blueviolet;
+display: flex;
+justify-content: space-between;
+padding: 2vw;
+
+}
+
+h1{
+    color: #ffff;
+    margin: 1vw;
+    border-radius: 3vw;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;    
+}
+
+a{
+    text-decoration: none;
+    margin: .5vw;
+    padding: .5vw;
+    font-size: 1.2em;
+    background-color: rgb(20, 20, 155);
+    color: #ffff;
+    border-radius:3vw;
+
+}

@@ -1,0 +1,95 @@
+
+.container{
+
+    padding-top: 40px;
+    margin: auto;
+    width: 60vw;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.096);
+}
+
+.container:hover{
+    box-shadow: 4px 4px 6px 6px #DEE2E6 ;
+
+}
+
+form{
+    
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+header >h1{
+    text-align: center;
+}
+
+section{
+    display:grid;
+    padding: 40px;
+    margin:auto;
+}
+
+label{
+    margin: 20px; 
+    font-size: 20px;
+}
+
+input{
+font-size: 30px;
+padding: 10px;
+margin: 20px;
+border-radius:10px ;
+border: transparent;
+background-color: #E9ECEF;
+
+
+}
+
+input:hover{
+    background-color: #DEE2E6;
+    
+}
+
+input:focus{
+    background-color:#FFFFFF;
+    border: #000000;
+}
+
+button{
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #1971C2;
+    color: white;
+    border-radius: 10px;
+    border: transparent;
+
+}
+
+button:hover{
+    background-color: #1864AB;
+}
+
+button:focus{
+  border-radius:15px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

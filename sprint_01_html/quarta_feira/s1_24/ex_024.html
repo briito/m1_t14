@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex_024</title>
+</head>
+<body>
+    
+<form >
+
+<label for="nome">Nome</label><br>
+<input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui..." required />
+
+<br><br>
+
+<label for="mail">E-mail</label><br>
+<input type="email" id="mail" name="mail" placeholder="Digite seu email aqui..." required />
+
+<br><br>
+
+<label for="descreve">Descrição</label><br>
+<textarea name="descreve" id="descreve" cols="20" rows="5" required placeholder="Fale mais sobre você aqui..."></textarea>
+
+<br><br>
+
+<label for="modulo">Módulo</label><br>
+<select name="modulo" id="modulo" required >
+
+    <option value="">Escolher módulo</option>
+    <option value="modulo_1">Módulo 1</option>
+    <option value="modulo_2">Módulo 2</option>
+    <option value="modulo_3">Módulo 3</option>
+    <option value="modulo_4">Módulo 4</option>
+    <option value="modulo_5">Módulo 5</option>
+    <option value="modulo_6">Módulo 6</option>
+    
+</select>
+
+<br><br>
+
+<label for="senha">Senha</label><br>
+<input type="password" placeholder="Digite sua senha aqui..." required>
+
+
+<br><br>
+
+<label for="confimar senha">Confirmar senha</label><br>
+<input type="password" placeholder="Digite sua senha novamente..." required>
+
+<section>
+    <p>Deseja receber novidades em seu e-mail ?</p>
+
+
+<label for="sim">Sim</label>
+<input type="radio" id="sim" name="método de contato" value="sim" required >
+
+<label for="não">Não</label>
+<input type="radio" id="não" name="método de contato" value="não" required >
+
+<br><br>
+
+<button type="submit">Cadastrar</button>
+
+</section>
+
+
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-bottom: 100px;
+}
+
+.menu{
+    background-color: #4572E8;
+    padding: 20px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 5px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container main{
+}
+
+.form-search{
+    margin-top: 100px;
+}
+
+.form-search form{
+display: flex;
+gap: 15px;
+margin-bottom: 15px;
+}
+
+.form-search form input{
+    width: 80%;
+    height: 50px;
+    background-color: #E7E7E7;
+    border: 1px solid transparent;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.form-search form input::placeholder{
+    color: red;
+}
+
+.form-search form button{
+    width: 20%;
+    height: 50px;
+    color:  #ffffff;
+    background-color:#4572E8 ;    
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+
+.post-header img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.post{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.title-1{
+    font-size: 42px;
+    margin-top: 50px;
+}
+
+.paragraph{
+    font-size: 18px;
+    line-height: 34px;
+    margin-top: 20px;
+}
+
+.last-post{
+    display: flex;
+    width: auto;
+    margin: 0 auto;
+}
+
+.last-post-card{
+    display: grid;
+    margin: 10px;
+}
+
+ .last-post-card a{
+    text-decoration: none;
+    margin: 20px 0;
+    color:#4572E8 ;
+    font-size: 30px;
+ }
+
+
+
+
+
+
+
+
+

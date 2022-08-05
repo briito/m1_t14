@@ -1,0 +1,22 @@
+body{
+    background-color: #d1ababcb;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+li {
+    display:inline-block ;
+    background-color: rgb(86, 86, 136);
+    box-shadow:none ;
+    font-size:2em ;
+    margin: 5vw;
+    padding: 1vw;
+    border-radius: 5px;
+    color: #ffff;
+   }
